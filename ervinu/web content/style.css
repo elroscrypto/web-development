@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(211, 207, 207);
+    margin: 10px;
+}
+
+#top-container {
+    background-color: #ffffff;
+}
+
+
+#bottom-container {
+    background-color: #ffffff;
+}
+
+#title h2 {
+    display: inline-block;
+}
+
+a {
+text-decoration: none;
+}
+
