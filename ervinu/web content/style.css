@@ -5,15 +5,14 @@ body {
 
 #top-container {
     background-color: #ffffff;
+    margin: 5px;
 }
 
 
-#bottom-container {
-    background-color: #ffffff;
-}
 
-#title h2 {
+#title h2, #title a {
     display: inline-block;
+    margin: 5px;
 }
 
 a {
@@ -21,19 +20,48 @@ text-decoration: none;
 }
 
 .carousel {
-    height: 200px;
-    width: 200px;
+    background-color: rgb(203, 232, 196);
+    height: 350px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products img {
+    background-color: rgb(142, 137, 131);
+    height: 60%;
+    width: 98%;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
 .galery {
-    height: 350px;
-    width: 250px;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 5px;
+    width: 340px;
 }
 
+#bottom-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.galery img {
+    margin: 0px 15px;
+    width: 90%;
+    height: 80%;
+    justify-content: space-between;
+}
+
+.galery h3 {
+    margin: 5px 15px;
+}
+
+.galery a {
+    margin: 10px 15px 10px;
+}
 
