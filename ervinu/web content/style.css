@@ -1,6 +1,6 @@
 body {
     background-color: rgb(211, 207, 207);
-    margin: 10px;
+    margin: 10px 5px;
     font-family: sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
 
 #title h2, #title a {
     display: inline-block;
-    margin: 5px;
+    margin: 5px 10px;
 }
 
 a {
@@ -21,13 +21,13 @@ text-decoration: none;
 .carousel {
     background-color: rgb(255, 255, 255);
     height: 330px;
-    width: 100%;
+    width: 99%;
     position: relative;
     display: flex;
 }
 
 .carousel p {
-    margin: 1px 10px;
+    margin: 4px 0px;
 }
 
 .carousel img {
@@ -37,32 +37,12 @@ text-decoration: none;
     margin: 0px 10px;
 }
 
-.galery {
-    background-color: rgb(255, 255, 255);
-    margin: 5px;
-    width: 340px;
-    overflow: hidden;
-}
-
-.galery img {
-    margin: 0px 15px;
-    width: 90%;
-    height: 80%;
-    justify-content: space-between;
-}
-
-.galery h3 {
-    margin: 5px 15px;
-}
-
-.galery a {
-    margin: 10px 15px 10px;
-}
 
 .deal-discount p:first-child {
     background-color: rgb(255, 0, 0);
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     display: inline-block;
+    margin-left: 10px;
 }
 
 .deal-discount p:last-child {
@@ -100,4 +80,26 @@ text-decoration: none;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.galery {
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    width: 340px;
+    overflow: hidden;
+}
+
+.galery img {
+    margin: 0px 15px;
+    width: 90%;
+    height: 80%;
+    justify-content: space-between;
+}
+
+.galery h3 {
+    margin: 5px 15px;
+}
+
+.galery a {
+    margin: 10px 15px 10px;
 }
