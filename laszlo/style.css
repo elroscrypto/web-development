@@ -1,15 +1,16 @@
-body {
-	background: #00ff7f;
-	margin: 0;
-	padding: 0;
+* {
+  box-sizing: border-box;
 }
-.column{
-	float: left;
-	width: 10.33%;
-	padding: 10px;
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
-.nav{
-	content: "";
-	clear: both;
-	display: table;
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
