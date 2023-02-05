@@ -1,14 +1,13 @@
 body {
     background-color: rgb(211, 207, 207);
     margin: 10px;
+    font-family: sans-serif;
 }
 
 #top-container {
     background-color: #ffffff;
     margin: 5px;
 }
-
-
 
 #title h2, #title a {
     display: inline-block;
@@ -20,35 +19,30 @@ text-decoration: none;
 }
 
 .carousel {
-    background-color: rgb(203, 232, 196);
-    height: 350px;
+    background-color: rgb(255, 255, 255);
+    height: 330px;
     width: 100%;
     position: relative;
     display: flex;
-    justify-content: space-between;
 }
 
-.products img {
-    background-color: rgb(142, 137, 131);
-    height: 60%;
+.carousel p {
+    margin: 1px 10px;
+}
+
+.carousel img {
+    background-color: rgb(236, 236, 236);
+    height: 70%;
     width: 98%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+    margin: 0px 10px;
 }
 
 .galery {
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     margin: 5px;
     width: 340px;
+    overflow: hidden;
 }
-
-#bottom-container {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
 
 .galery img {
     margin: 0px 15px;
@@ -65,3 +59,45 @@ text-decoration: none;
     margin: 10px 15px 10px;
 }
 
+.deal-discount p:first-child {
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    display: inline-block;
+}
+
+.deal-discount p:last-child {
+    color: red;
+    display: inline-block;
+}
+
+.euro-sign {
+    font-size: 0.5em;
+    position: relative;
+    top: -0.25em;
+    right: -0.25em;
+    top: -5px;
+}
+
+.cents {
+    font-size: 0.5em;
+    position: relative;
+    top: -5px;
+    right: -1px;
+}
+
+.was {
+    font-size: 0.8em;
+    opacity: 0.5;
+}
+
+.old-price {
+    font-size: 0.8em;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+#bottom-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
