@@ -1,16 +1,40 @@
-* {
-  box-sizing: border-box;
+.row{
+  display: flex;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
+  flex: 16%;
   padding: 5px;
+  width: 15%;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+img {
+  width: 100px;
 }
+.image {
+  background-color: grey;
+  margin: 10px;
+  text-align: center;
+}
+
+.bottom-image {
+  width: 300px;
+}
+
+.discount {
+  color: white;
+  background-color: red;
+  padding: 5px;
+  border: 1px solid black;
+  margin-right: 4px;
+}
+
+.period {
+  color: red;
+  font-weight: bold;
+}
+.row .column {
+    float: left;
+    padding: 106px;
+    width: 10%;
+    }
