@@ -1,0 +1,104 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 191, 127);
+    
+}
+
+.imagine{
+    width: 350px;
+    height: 250px;
+    object-fit:fill;
+  }
+
+.imagine, a{
+    color:green;
+}
+.row{
+display: flex;
+flex-direction: row;
+
+
+
+}
+
+.teacolumn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 320px;
+    width: 210px;
+    background-color: rgb(98, 151, 33);
+    column-gap: 10px;
+    justify-content: space-around;
+    margin:10px;
+    
+
+}
+
+.bottom-container {
+    display: flex;
+    margin-top: 10px;
+    width:1500px;
+    height:350px;
+    background-color: rgb(166, 191, 127);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recipecolumn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 340px;
+    width: 355px;
+    align-items: stretch;
+    object-fit: fill;
+   
+    
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: red;
+    width: 70px;
+    height: 25px;
+    
+}
+
+.end {
+    color: red;
+    font-weight: bold;
+  }
+
+  p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+  
+    
+  }
+
+
+  #topBar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+  }
+
+
+.topbar{
+    color:green;
+    font-size: 15px;
+
+}
+.top{
+color:white;
+font-size:20px;
+font-family: 'Times New Roman', Times, serif;
+}
