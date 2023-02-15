@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(166, 191, 127);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+span {
+  margin: 2px;
+}
+
+#top-bar {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.top-bar {
+  background-size: 30px;
+  color: #008000;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.top {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.imagine,
+a {
+  color: #008000;
+  height: 250px;
+  width: 350px;
+}
+
+.tea-columncard {
+  background-color: rgb(98, 151, 33);
+  column-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  width: 210px;
+}
+
+.tea-rowcard,
+.recipe-rowcard {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.bottom-container {
+  background-color: rgb(166, 191, 127);
+  color: #ffffff;
+  display: flex;
+  height: 350px;
+  margin-top: 30px;
+}
+
+.recipe-columncard {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  object-fit: fill;
+  padding: 10px;
+  width: 355px;
+}
+
+.discount {
+  background-color: #ff0000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  width: 70px;
+}
+
+.discount-ending {
+  color: #ff0000;
+  font-weight: bold;
+}
