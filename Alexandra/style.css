@@ -1,80 +1,97 @@
-body{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(166, 191, 127);  
-    font-family: 'Times New Roman', Times, serif;
-}
-
- p{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    color: white;
-}
-
- #top-bar{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: white;
-  }
-
-.topbar{
-    color:green;
-    font-size: 15px;
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(166, 191, 127);
+  font-family: 'Times New Roman', Times, serif;
 
 }
-.top{
-    color:white;
-    font-size:20px;
-    font-family: 'Times New Roman', Times, serif;
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: white;
 }
 
-.imagine{
-    width: 350px;
-    height: 250px;
-    object-fit:fill;
-  }
-
-.imagine, a{
-    color:green;
+span {
+  margin:2px;
 }
 
-.row{
-    display: flex;
+#top-bar {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+
+.top-bar {
+  color: #008000;
+  font-size: 15px;
+  background-size: 30px;
+  margin-left:5px;
+
+}
+
+.top {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.imagine,
+a {
+  width: 350px;
+  height: 250px;
+  color: #008000;
+}
+
+.tea-columncard {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 350px;
+  width: 210px;
+  background-color: rgb(98, 151, 33);
+  column-gap: 10px;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.tea-rowcard,
+.recipe-rowcard {
+  display: flex;
+  flex-direction: row;
+
 }
 
 .bottom-container {
-    display: flex;
-    margin-top: 10px;
-    width:1500px;
-    height:350px;
-    background-color: rgb(166, 191, 127);
-    color: white;
+  display: flex;
+  margin-top: 30px;
+  height: 350px;
+  background-color: rgb(166, 191, 127);
+  color: #ffffff;
 }
 
 .recipe-columncard {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    height: 340px;
-    width: 355px;
-    align-items: stretch;
-    object-fit: fill;  
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 300px;
+  width: 355px;
+  align-items: stretch;
+  object-fit: fill;
+
 }
 
 .discount {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    background-color: red;
-    width: 70px;
-    height: 25px;
-    
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  background-color: #ff0000;
+  width: 70px;
+  height: 25px;
 }
 
-.end {
-    color: red;
-    font-weight: bold;
-  }
-
-
+.discount-ending {
+  color: #ff0000;
+  font-weight: bold;
+}
