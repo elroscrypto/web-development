@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+}
+
+.background-highlight {
+        background-color: #ff0000;
+        color: #ffffff;
+        display: inline-block;
+}
+
+body {
+    background-color: #d3cfcf;
+    margin: 8px 4px;
+    font-family: sans-serif;
+}
+
+.bottom-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel, .galery, .top-container {
+    background-color :#ffffff
+}
+
+.carousel {
+    height: 320px;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+.carousel img {
+    background-color: #ececec;
+    height: 210px;
+    width: 210px;
+    padding: 8px;
+}
+
+.carousel p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 210px;
+    margin: 4px 4px;
+}
+
+.cents {
+    font-size: 12px;
+    position: absolute;
+    padding-left: 2px;
+}
+
+.euro {
+    margin-left: 2px;
+   padding-left: 2px;
+}
+
+.euro-sign {
+    font-size: 12px;
+    position: absolute;
+    padding-left: 2px; 
+}
+
+.galery {
+    margin: 4px;
+    width: 340px;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.galery a {
+    display: inline-block;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.galery h3 {
+    margin: 8px 16px;
+    padding-top: 16px;
+}
+
+.galery img {
+    margin: 0px 16px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+
+.old-price {
+    font-size: 16px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.top-container {
+    margin: 4px;
+}
+
+.title a {
+    padding-left: 8px;
+}
+
+.title h2 {
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.text-highlight {
+    color: #ff0000;
+    display: inline-block;
+}
+
+.old-price-text {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
