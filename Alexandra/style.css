@@ -1,35 +1,32 @@
 body {
+  background-color: rgb(166, 191, 127);
   display: flex;
   flex-direction: column;
-  background-color: rgb(166, 191, 127);
   font-family: 'Times New Roman', Times, serif;
-
 }
 
 p {
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  color: white;
 }
 
 span {
-  margin:2px;
+  margin: 2px;
 }
 
 #top-bar {
-  font-size: 20px;
   color: #ffffff;
+  font-size: 20px;
   margin: 10px;
 }
 
-
 .top-bar {
+  background-size: 30px;
   color: #008000;
   font-size: 15px;
-  background-size: 30px;
-  margin-left:5px;
-
+  margin-left: 5px;
 }
 
 .top {
@@ -39,21 +36,21 @@ span {
 
 .imagine,
 a {
-  width: 350px;
-  height: 250px;
   color: #008000;
+  height: 250px;
+  width: 350px;
 }
 
 .tea-columncard {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  height: 350px;
-  width: 210px;
   background-color: rgb(98, 151, 33);
   column-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
   justify-content: space-around;
   margin: 10px;
+  padding: 10px;
+  width: 210px;
 }
 
 .tea-rowcard,
@@ -64,31 +61,30 @@ a {
 }
 
 .bottom-container {
-  display: flex;
-  margin-top: 30px;
-  height: 350px;
   background-color: rgb(166, 191, 127);
   color: #ffffff;
+  display: flex;
+  height: 350px;
+  margin-top: 30px;
 }
 
 .recipe-columncard {
+  align-items: stretch;
   display: flex;
   flex-direction: column;
-  padding: 10px;
   height: 300px;
-  width: 355px;
-  align-items: stretch;
   object-fit: fill;
-
+  padding: 10px;
+  width: 355px;
 }
 
 .discount {
+  background-color: #ff0000;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
-  color: #ffffff;
-  background-color: #ff0000;
-  width: 70px;
   height: 25px;
+  width: 70px;
 }
 
 .discount-ending {
